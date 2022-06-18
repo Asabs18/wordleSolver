@@ -1,0 +1,7 @@
+tasks:
+- init: |
+    # install cmocka & valgrind
+    sudo apt-get update -y
+    sudo apt-get install -y libcmocka-dev valgrind
+- command: |
+    make 
